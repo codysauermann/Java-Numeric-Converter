@@ -25,7 +25,7 @@ public class NumericConversion {
         return decodedHex;
     }
 
-    public static short hexCharDecode(char digit) {
+    public static short hexCharDecode(char digit) { // decodes a letter from the hex code.
         short newDigit = 0;
         if (digit == 'a' || digit == 'A') {
             newDigit = 10;
